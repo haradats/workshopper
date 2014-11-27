@@ -2,13 +2,20 @@
 
 **A terminal workshop runner framework**
 
-[![NPM](https://nodei.co/npm/workshopper.png?downloads=true&stars=true)](https://nodei.co/npm/workshopper/) [![NPM](https://nodei.co/npm-dl/workshopper.png?months=3)](https://nodei.co/npm/workshopper/)
+[![NPM](https://nodei.co/npm/workshopper.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/workshopper/) [![NPM](https://nodei.co/npm-dl/workshopper.png?months=3&height=3)](https://nodei.co/npm/workshopper/)
 
 ![Learn You The Node.js For Much Win!](https://raw.github.com/rvagg/learnyounode/master/learnyounode.png)
 
 **Workshopper** is used by **[learnyounode](https://github.com/rvagg/learnyounode)**, and other Node.js command-line workshop applications.
 
 *Documentation is being written for the v1 rewrite right now! Ping @rvagg if you need anything. **learnyounode** is now using this new version, for now you can use it to see how this works.
+
+
+## High-level overview
+
+Workshopper is essentially a *test-runner* with a fancy terminal UI. The Workshopper package itself is largely concerned with the menu system and some of the basic command-line parsing. Much of the work for executing the exercise validation is handled by [workshopper-exercise](http://github.com/rvagg/workshopper-exercise).
+
+
 
 
 ### Contributors
